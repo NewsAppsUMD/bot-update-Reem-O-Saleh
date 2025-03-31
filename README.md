@@ -25,4 +25,6 @@ I implemented error handling for API failures, which helped me figure out why er
 - Using environment variables is essential to keep authentication tokens out of the code repository
 - Working with APIs requires robust error handling
 
+## March 28 update
 
+The bot is functional, and the message is more detailed now, with added distribution pattern information that may help consumers. However, I still need to add time-based notifications or figure out how to incorporate pagination and parse the html pages for the specific recalls and get the directions given to consumers. I am not sure how to incorporate pagination. So far, I have learned that the data is structured, and the information the api gives is different than if I were to parse the html pages. The process of getting the most recent recall information didn't work as easily as I thought it would. From my initial steps, I would  have chosen a different approach to extracting the data and formatting the message. I would have considered parsing the HTML information if possible, which would have improved the information included in the message.
