@@ -30,6 +30,7 @@ sentence = (
     f"⚠️ *Product:* {first_result['product_description']}\n"
     f"❗ *Reason:* {first_result['reason_for_recall']}\n"
     f"🏭 *Company:* {first_result['recalling_firm']}\n"
+    f"🌎 *Distribution:* {first_result['distribution_pattern']}\n"
     f"📅 *Recall Date:* {formatted_date}\n"
     f"🔗 [More Info]({display_url})"
 )

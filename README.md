@@ -25,3 +25,4 @@ I implemented error handling for API failures, which helped me figure out why er
 - Using environment variables is essential to keep authentication tokens out of the code repository
 - Working with APIs requires robust error handling
 
+
